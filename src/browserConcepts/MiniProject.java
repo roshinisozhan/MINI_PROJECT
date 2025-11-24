@@ -49,13 +49,8 @@ public class MiniProject extends Reuseable {
 		WebElement Click_Laptop = driver.findElement(By.xpath("//a[text()='Laptops']"));
 		Click_Laptop.click();
 		Thread.sleep(2000);
-		WebElement Click_SonyLaptop = driver.findElement(By.xpath("//a[text()='Sony vaio i5'])");
+		WebElement Click_SonyLaptop = driver.findElement(By.xpath("//a[text()='Sony vaio i5']"));
 		Click_SonyLaptop.click();
-		
-		
-		
-		
-	
 		
 	}
 	
